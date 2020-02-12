@@ -66,11 +66,8 @@ def Calibration():
 		if key == ord('q'):
 			break
 	
-	# plt.plot(smooth(e[0], 20), 'r')
-	# # plt.plot(smooth(e[0], 20), markevery = 100)
-	# # plt.show()
-	# plt.plot(smooth(e[1], 20), 'g')
+	
 	plt.show()
-	# print(Avg_EAR, smooth(e[0], len(e[0])))
+	
 	cv2.destroyAllWindows()
 	return (Avg_EAR + 0.02)
